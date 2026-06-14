@@ -85,7 +85,7 @@ Add a screenshot of your application here.
 
 ## Live Demo
 
-digital-clock-react-app-mk.netlify.app
+🔗 https://digital-clock-react-app-mk.netlify.app/
 
 ## Author
 
