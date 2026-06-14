@@ -1,16 +1,98 @@
-# React + Vite
+# Digital Clock App ⏰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Digital Clock built with React. The application displays the current time and date in real-time using React Hooks.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Real-time clock updates every second
+* 12-hour time format with AM/PM
+* Displays current date
+* Responsive design
+* Modern UI with glassmorphism effects
+* Built using React Hooks (`useState` and `useEffect`)
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Vite
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+
+```bash
+git clone https://github.com/Muthukannan04/Digital-Clock-app-react.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd Digital-Clock-app-react
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit
+
+```bash
+http://localhost:5173
+```
+
+## Project Structure
+
+```text
+src/
+├── App.jsx
+├── App.css
+├── main.jsx
+└── assets/
+```
+
+## React Concepts Used
+
+### useState
+
+Used to store the current time.
+
+### useEffect
+
+Used to create and clear the interval that updates the clock every second.
+
+### Date Object
+
+JavaScript's Date object is used to retrieve:
+
+* Hours
+* Minutes
+* Seconds
+* Current Date
+
+## Screenshot
+
+Add a screenshot of your application here.
+
+## Live Demo
+
+digital-clock-react-app-mk.netlify.app
+
+## Author
+
+**Muthu Kannan**
+
+GitHub: https://github.com/Muthukannan04
+
+## License
+
+This project is open source and available under the MIT License.
